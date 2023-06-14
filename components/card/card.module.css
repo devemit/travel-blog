@@ -1,0 +1,27 @@
+.text_container {
+  text-align: left;
+  max-width: 500px;
+  flex: 1;
+}
+.text_container h4 {
+  color: var(--blue);
+  text-transform: uppercase;
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+}
+.text_container h2 {
+  color: var(--black);
+  padding-top: 2rem;
+  font-size: clamp(1.5rem, 2.5vw, 3rem);
+}
+.text_container p {
+  color: var(--grey);
+  padding-top: 2rem;
+}
+@media (max-width: 768px) {
+  .text_container {
+    text-align: center;
+  }
+  .text_container h4 {
+    padding-top: 3.5rem;
+  }
+}

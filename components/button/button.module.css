@@ -1,0 +1,21 @@
+.btnLink {
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  background: var(--blue);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .container {
+    display: block;
+  }
+}
