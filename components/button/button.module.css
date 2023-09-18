@@ -1,21 +1,16 @@
-.btnLink {
-  padding: 1rem;
-  border-radius: 5px;
-  font-size: var(--font-size-base);
-  color: var(--white);
-  background: var(--blue);
-  outline: none;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-}
 .container {
-  display: flex;
+  padding-top: 1.5rem;
+  display: block;
   align-items: center;
   justify-content: center;
 }
-@media (min-width: 768px) {
-  .container {
-    display: block;
-  }
+.button_link {
+  cursor: pointer;
+  color: var(--white);
+  background: var(--blue);
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 1rem;
+  outline: none;
+  border: none;
 }

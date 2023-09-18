@@ -1,5 +1,5 @@
-.mainContainer {
-  padding: 3rem 0;
+.main_container {
+  padding: 1.5rem 0;
 }
 .content {
   display: flex;
@@ -9,7 +9,7 @@
 .content:nth-child(2n) {
   flex-direction: row-reverse;
 }
-.image_container {
+.image_wrapper {
   width: 100%;
   height: 400px;
   flex: 1;

@@ -1,17 +1,23 @@
-import styles from "./button.module.css";
-import Link from "next/link";
+import styles from './button.module.css';
+import Link from 'next/link';
 
-interface btnProps {
-  text: string;
+type btnProps = {
   url: string;
-}
+  className?: string;
+  children: React.ReactNode;
+} & React.ComponentProps<'button'>;
 
-export default function Button({ text, url }: btnProps) {
+export default function Button({
+  url,
+  children,
+  className = '',
+  ...restProps
+}: btnProps) {
   return (
-    <div className={styles.container} style={{ paddingTop: "4rem" }}>
-      <Link href={url} className={styles.btnLink}>
-        {text}
-      </Link>
-    </div>
+    <Link href={url} className={styles.container}>
+      <button {...restProps} className={styles.button_link}>
+        {children}
+      </button>
+    </Link>
   );
 }

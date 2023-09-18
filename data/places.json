@@ -1,0 +1,19 @@
+{
+  "places": [
+    {
+      "name": "Strasbourg",
+      "description": "Strasbourg is the capital city of the Grand Est region in northeastern France. It's known for its stunning medieval architecture, picturesque canals, and its beautiful cathedral, Strasbourg Cathedral.",
+      "photoUrl": "https://images.unsplash.com/photo-1506892215-0b05442bfc9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1958&q=80"
+    },
+    {
+      "name": "Paris",
+      "description": "Paris, the capital city of France, is famous for its iconic landmarks like the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral. It's also renowned for its world-class cuisine and art museums.",
+      "photoUrl": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    },
+    {
+      "name": "Milan",
+      "description": "Milan is a global fashion and design capital in northern Italy. It's home to historic art and cultural institutions like the Milan Cathedral, Leonardo da Vinci's 'The Last Supper' painting, and many more.",
+      "photoUrl": "https://images.unsplash.com/photo-1610016302534-6f67f1c968d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1975&q=80"
+    }
+  ]
+}
