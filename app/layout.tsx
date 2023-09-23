@@ -1,5 +1,5 @@
 import './globals.css';
-import Navbar from '@/components/navbar/Navbar';
+import Navbar from '@/components/navbar/navbar';
 import { Inter } from 'next/font/google';
 
 export const metadata = {

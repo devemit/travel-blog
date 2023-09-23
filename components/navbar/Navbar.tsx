@@ -4,10 +4,10 @@ import styles from './navbar.module.css';
 import { pages } from '@/utils/pages';
 import Image from 'next/image';
 import logo from 'public/travel-blog-logo.webp';
-import { useSelectedLayoutSegment } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 
 export default function Navbar() {
-  const path = useSelectedLayoutSegment();
+  const pathname = usePathname();
 
   return (
     <div className={styles.container}>
@@ -21,7 +21,7 @@ export default function Navbar() {
             <Link
               key={id}
               className={`${styles.nav_item} ${
-                path === page.activeSegment && styles.active
+                pathname === page.href && styles.active
               }`}
               href={page.href}
             >

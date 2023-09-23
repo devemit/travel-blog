@@ -4,10 +4,11 @@
 .content {
   display: flex;
   gap: 5rem;
-  padding-top: 2rem;
+  padding-top: 0.5rem;
 }
 .content:nth-child(2n) {
   flex-direction: row-reverse;
+  padding-top: 6rem;
 }
 .image_wrapper {
   width: 100%;

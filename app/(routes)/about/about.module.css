@@ -6,6 +6,7 @@
   line-height: 2rem;
   max-width: 500px;
   margin: 0 auto;
+  padding-top: 5rem;
 }
 .container h2 {
   font-size: clamp(1.5rem, 2.5vw, 2rem);
