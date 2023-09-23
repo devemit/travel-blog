@@ -12,8 +12,8 @@ export default function page() {
       <h2>About Us</h2>
       <p className={styles.description}>
         We are a travel blog featuring travel tips, guides, and photography from
-        around the world. Whether you need guidance for your first trip, or
-        you're a seasoned traveler looking for destination inspiration, you've
+        around the world. Whether you need guidance for your first trip, or you
+        are a seasoned traveler looking for destination inspiration, you have
         come to the right place!
       </p>
       <span className={styles.quote}>

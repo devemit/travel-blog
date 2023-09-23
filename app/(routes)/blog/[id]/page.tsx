@@ -4,7 +4,7 @@ import { useParams } from 'next/navigation';
 import placesData from '@/data/places.json';
 import Blog from '@/components/blog-body/blog';
 
-export default function page() {
+export default function BlogId() {
   const { id } = useParams() as any;
   const place = placesData.places[id];
   return (
