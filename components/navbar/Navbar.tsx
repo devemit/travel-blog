@@ -6,7 +6,7 @@ import Image from 'next/image';
 import logo from 'public/travel-blog-logo.webp';
 import { usePathname } from 'next/navigation';
 
-export default function Navbar() {
+export default function NavBar() {
   const pathname = usePathname();
 
   return (
