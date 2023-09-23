@@ -1,12 +1,12 @@
 'use client';
 import Link from 'next/link';
-import styles from './navbar.module.css';
+import styles from './nav.module.css';
 import { pages } from '@/utils/pages';
 import Image from 'next/image';
 import logo from 'public/travel-blog-logo.webp';
 import { usePathname } from 'next/navigation';
 
-export default function NavBar() {
+export default function Navbar() {
   const pathname = usePathname();
 
   return (
